@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class TemperatureConverterTest {
 
     @Test
-    void checkConvertFromCelsiusToFahrenheitTest() {
+    void convertingTemperatureFromCelsiusToFahrenheitTest() {
 
         //Arrange:
         temperatureConverter converter = new temperatureConverter();
@@ -20,7 +20,7 @@ class TemperatureConverterTest {
     }
 
     @Test
-    void checkConvertFromFahrenheitToCelsiusTest(){
+    void convertingTemperatureFromFahrenheitToCelsiusTest(){
 
         //Arrange:
         temperatureConverter converter = new temperatureConverter();
